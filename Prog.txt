@@ -1,0 +1,17 @@
+let Stell = ['Stell', 'TrubberDox', 'Attelier', 'Cornelius'];
+console.log(Stell.length);
+
+var point = 3;
+console.log(Stell [point]);
+for (start = 0; start <= Stell.length; start++){
+    console.log(Stell [start]);
+}
+
+
+for (start = 0; start <= Stell.length; start++){
+     if (Stell [start] == 'TrubberDox'){
+         console.log(start);
+     }
+    
+}
+
